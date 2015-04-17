@@ -1,0 +1,13 @@
+{
+  "name": "cotemig-horarios",
+  "version": "1.0.0",
+  "description": "Tela de apresentação dos horarios da Faculdade Cotemig",
+  "author": "Leandro Daldegam",
+  "devDependencies": {
+    "http-server": "^0.8.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 3200 -c-1"
+  }
+}

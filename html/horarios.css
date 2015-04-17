@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+	Cotemig Horarios
+	17/04/2015
+*/
+body {
+	background: #29613c; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI5NjEzYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE2JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #29613c 0%, #ffffff 16%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29613c), color-stop(16%,#ffffff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #29613c 0%,#ffffff 16%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #29613c 0%,#ffffff 16%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #29613c 0%,#ffffff 16%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #29613c 0%,#ffffff 16%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29613c', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+	font-family: Tahoma;
+}
+#main {
+	max-width: 1000px;
+	width: 1000px;
+	margin: 0 auto;
+}
+#main #header img {
+	float: left;
+	margin: 26px 0 0 75px;
+}
+#main #header #title {
+	float: left;
+	text-align: center;
+	margin: 58px 0 0 44px;
+	width: 566px;
+}
+#main #header #title span {
+	color: #29613c;
+	font-weight: bold;
+	font-size: 60px;
+	text-transform: uppercase;
+	line-height: 78px;
+	text-shadow: -3px 0px 2px #fff, 0 3px 2px #fff, 3px 0 2px #fff, 0 -3px 2px #fff;
+}
+
+
+#main #content {
+	clear: both;
+	margin: 0 auto;
+	width: 900px;
+}
+#main #content #date {
+	text-align: center;
+	font-size: 28px;
+	padding: 16px;
+}
+#main #content table {
+	border-collapse: collapse;
+	width: 880px;
+	margin: 0 auto 20px;
+}
+
+#main #content table tr {
+
+}
+#main #content table tr th,
+#main #content table tr td {
+	text-align: center;
+	border: 2px solid #29613C;
+	font-size: 22px;
+	line-height: 34px;
+}
+#main #content table tr:nth-child(1) th {
+	font-size: 25px;
+}
+#main #content table tr:nth-child(1) th:nth-child(1) {
+	vertical-align: middle;
+	font-size: 28px;
+}
+#main #content table tr:nth-child(2) th {
+	font-size: 20px;
+}
+#main #content table tr td:first-child {
+	text-align: right;
+	padding-right: 10px;
+}
+#main #content table tr th {
+	background: #A9D037;
+	color: #000;
+	
+	/*
+	Primeira opção de cores:
+
+		background: #D6EA9C;
+		color: #000;
+
+	Segunda opção de cores.
+
+		background: #29613C;
+	  	color: #fff;
+
+	Terceira opção de cores.
+
+		background: #A9D037;
+		color: #000;
+
+  	*/
+}
+#main #content table tr td {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
